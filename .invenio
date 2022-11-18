@@ -1,0 +1,21 @@
+[cli]
+flavour = RDM
+logfile = /logs/invenio-cli.log
+
+[cookiecutter]
+project_name =test-sam2
+project_shortname = test-sam2
+package_name = test-sam2
+project_site = test-sam2.com
+github_repo = test-sam2/test-sam2
+description = My Site InvenioRDM Instance
+author_name = KTH
+author_email = info@test-sam2.com
+year = 2022
+python_version = 3.8
+database = postgresql
+search = opensearch2
+file_storage = local
+development_tools = yes
+site_code = yes
+_template = https://github.com/inveniosoftware/cookiecutter-invenio-rdm.git
